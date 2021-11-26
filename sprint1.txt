@@ -1,0 +1,51 @@
+Technologie utiliée : Symfony
+Sprint numéro 1 
+
+Objectif du sprint : Création de rôle utilsateur avec leur espace
+
+Sprint backlog (tâches) :
+
+En tant qu'administrateur je veux créer de nouveaux utilisateurs
+    estimation : 15
+    découpage : 
+    Création de la BDD
+        Création de la table admin
+        Création de la table user
+    Création de la vue nouvel utilisateur pour un admin seulement 
+        pour un utilisateur on aura :
+            nom 
+            prenom
+            numéro de téléphone
+            mail
+            Ville
+            Code postal
+    Création du controller user dans lequel on aura tous les types d'utilisateurs
+
+En tant qu'administrateur, je veux attribuer un rôle à un utilisateur
+    estimation : 10
+    découpage : 
+    Création de la table conseiller
+    Création de la table vendeur
+    On ajoute le champ rôle sur la page nouvel utilisateur
+    Ajout du role sur le controller puis faire le lien dans la vue
+
+En tant que conseiller, je veux pouvoir me connecter à mon espace sécurisé
+    estimation : 8
+    découpage : 
+    Création de la vue espace
+    Création de la vue connexion/inscription
+        Création du formulaire pour connexion/inscription
+
+
+Sprint : 
+pas de daily scrum
+
+Sprint review : 
+Toutes les tâches ont été réalisés sans difficulté
+Pour un story point total de  : 33
+
+Sprint retrospective :
+- Ce que j'ai aimé : Création des rôles pour chaque utilisateur
+- Ce que je n'ai pas aimé : /
+- Ce que j'ai appris : il faut une certaine flexibilité pour rajouté des champs
+- Ce qu'il faut éviter de faire : il faut commencer par les rôles pour que les utilisateurs existent sinon on ne peut rien faire 
