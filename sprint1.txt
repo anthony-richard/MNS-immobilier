@@ -33,6 +33,7 @@ En tant que conseiller, je veux pouvoir me connecter à mon espace sécurisé
     estimation : 8
     découpage : 
     Création de la vue espace
+    Création du controller log
     Création de la vue connexion/inscription
         Création du formulaire pour connexion/inscription
 
