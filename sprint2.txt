@@ -1,0 +1,79 @@
+Technologie utiliée : Symfony
+Sprint numéro 2 
+
+Objectif du sprint : Création de bien pour pouvoir travailler dessus
+
+Sprint backlog (tâches) :
+
+En tant que conseiller, je veux créer un nouveau bien afin d'améliorer sa visibilité
+    estimation : 20
+    découpage : 
+    Création de la table immobilier
+        id
+        nom propriétaire
+        nombre de pièce
+        nombre de m2
+        prix
+        ville
+        code postal
+    Création de la vue créationBien avec un form en adéquation avec la table immobilier
+        nom propriétaire
+        nombre de pièce
+        nombre de m2
+        prix
+        localisation 
+            ville
+            code postal
+    Création de la vue bienImmobilier
+        Affichage de la totalités des biens immobilier
+        filtrage par zone, prix
+    Création du controller bienImmobilier
+        parametre des routes pour les vues créationBien et bienImmobilier
+        parametre des infos à afficher pour chacun
+
+En tant que conseiller, je veux visualiser mes derniers biens en vente afin de pouvoir travailler dessus
+    estimation : 10
+    découpage : 
+    Ajout sur l'espace du conseiller des biens ajoutés par ordre récent
+    Création de la vue bienConseiller avec redirection sur la page bienImmobilier pour chaque 
+
+
+En tant que conseiller, je veux visualiser les messages envoyés par les acheteurs afin de répondre à leurs questions
+    estimation : 15
+    découpage : 
+    Ajout sur la page bienImmobilier un bouton pour envoyer un mail au conseiller 
+    Création du formulaire questionnaire
+        sujet
+        commentaire
+    Création de la vue questionnaire
+        afficher le form
+
+
+En tant que conseiller, je veux renseigner les visites programmées pour un bien afin de tenir le vendeur au courant 
+    estimation : 30
+    découpage : 
+    Ajout d'un calendrier.
+    Création du controller et vue calendrier que l'on ajoutera sur la page bienImmobilier.
+    Vue calendrier qui donnera sur un form pour permettre à l'utilisateur de prendre une date de visite avec une horaire
+    quand celle ci est prise elle sera unable par la suite sauf s'il l'utilsateur annule la visite.
+    Disponible grâce à un bouton sur chaque page bienImmobilier.
+    Ajout de la table calendrier
+        date : 
+        jour 
+        horaire 
+
+
+
+Sprint : 
+pas de daily scrum
+
+Sprint review : 
+Toutes les tâches ont été réalisé
+C'est une première pour ce qui est de l'ajout d'un calendrier, c'est pour cela que j'ai mis un peu de temps
+Pour un story point total de  : 75
+
+Sprint retrospective :
+- Ce que j'ai aimé : devoir me renseigner sur le métier
+- Ce que je n'ai pas aimé : /
+- Ce que j'ai appris : ajout de calendrier
+- Ce qu'il faut éviter de faire : /
