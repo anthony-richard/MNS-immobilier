@@ -1,0 +1,21 @@
+Backlog : 
+
+Visiteur : 
+En tant que visiteur, je veux visualiser les derniers biens en vente afin de découvrir les nouveautés de l'agence
+En tant que visiteur, je veux visualiser les détails d'un bien afin de le découvrir
+En tant que visiteur, je veux contacter le conseiller en charge d'un bien afin de lui demander des précisions
+En tant que visiteur, je veux faire une proposition afin d'acheter un bien
+Conseiller : 
+En tant que conseiller, je veux pouvoir me connecter à mon espace sécurisé
+En tant que conseiller, je veux visualiser mes derniers biens en vente afin de pouvoir travailler dessus
+En tant que conseiller, je veux créer un nouveau bien afin d'améliorer sa visibilité
+En tant que conseiller, je veux visualiser les messages envoyés par les acheteurs afin de répondre à leurs questions
+En tant que conseiller, je veux renseigner les visites programmées pour un bien afin de tenir le vendeur au courant
+Vendeur : 
+En tant que vendeur, je veux consulter les propositions reçus pour mon bien afin de les étudier
+En tant que vendeur, je veux accéder à mon espace personnel afin de suivre l'avancement de mon dossier
+En tant que vendeur, je veux visualiser l'état d'avancement de ma vente afin de contrôler le travail de mon conseiller
+En tant que vendeur, je veux choisir un mot de passe afin d'accéder à mon espace personnel
+Admin :
+En tant qu'administrateur je veux créer de nouveaux utilisateurs
+En tant qu'administrateur, je veux attribuer un rôle à un utilisateur
